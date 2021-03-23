@@ -1,0 +1,11 @@
+<templateSet group="React">
+  <template name="fsc" value="import React from 'react'&#10;type $TM_FILENAME_BASE$PropsType = {&#10; $END$&#10;}&#10;&#10;export const $TM_FILENAME_BASE$ = (props: $TM_FILENAME_BASE$PropsType) =&gt; {&#10;    return (&#10;        &lt;&gt;&#10;            &#10;        &lt;/&gt;&#10;    )&#10;}" description="Creates a stateless React component with FlowTypes and ES6 module system" toReformat="false" toShortenFQNames="true">
+    <variable name="TM_FILENAME_BASE" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="uef" value="useEffect (() =&gt; {&#10;    $END$&#10;})" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,78 @@
+<keymap version="1" name="Windows (My Settings)" parent="$default">
+  <action id="$Cut">
+    <keyboard-shortcut first-keystroke="ctrl x" />
+  </action>
+  <action id="$Redo">
+    <keyboard-shortcut first-keystroke="shift ctrl z" />
+    <keyboard-shortcut first-keystroke="shift alt back_space" />
+    <keyboard-shortcut first-keystroke="ctrl y" />
+  </action>
+  <action id="ActivateDebugToolWindow" />
+  <action id="ActivateFavoritesToolWindow">
+    <keyboard-shortcut first-keystroke="alt 7" />
+  </action>
+  <action id="ActivateFindToolWindow" />
+  <action id="ActivateStructureToolWindow" />
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="alt f12" />
+    <keyboard-shortcut first-keystroke="alt x" />
+  </action>
+  <action id="ActivateVersionControlToolWindow">
+    <keyboard-shortcut first-keystroke="alt 9" />
+    <keyboard-shortcut first-keystroke="shift ctrl g" />
+    <keyboard-shortcut first-keystroke="alt 2" />
+  </action>
+  <action id="ActivatenpmToolWindow">
+    <keyboard-shortcut first-keystroke="alt 5" />
+  </action>
+  <action id="DomCollectionControl.Add" />
+  <action id="DomElementsTreeView.AddElement" />
+  <action id="EditorCut">
+    <keyboard-shortcut first-keystroke="ctrl x" />
+  </action>
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="shift delete" />
+  </action>
+  <action id="EditorDown">
+    <keyboard-shortcut first-keystroke="down" />
+    <keyboard-shortcut first-keystroke="ctrl n" />
+  </action>
+  <action id="EditorScrollToCenter" />
+  <action id="EditorToggleInsertState" />
+  <action id="EditorUp">
+    <keyboard-shortcut first-keystroke="up" />
+    <keyboard-shortcut first-keystroke="ctrl m" />
+  </action>
+  <action id="FindModal">
+    <keyboard-shortcut first-keystroke="alt 3" />
+  </action>
+  <action id="KeyMapSwitch.QuickSwitchKeymap">
+    <keyboard-shortcut first-keystroke="shift alt e" />
+    <keyboard-shortcut first-keystroke="insert" />
+  </action>
+  <action id="List-selectNextColumn" />
+  <action id="MoveTabRight">
+    <keyboard-shortcut first-keystroke="shift ctrl alt x" />
+  </action>
+  <action id="ParameterInfo">
+    <keyboard-shortcut first-keystroke="ctrl p" />
+    <keyboard-shortcut first-keystroke="shift alt p" />
+  </action>
+  <action id="PublishGroup.UploadTo" />
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="shift alt v" />
+  </action>
+  <action id="Table-selectNextColumn" />
+  <action id="TailwindAction">
+    <keyboard-shortcut first-keystroke="alt z" />
+  </action>
+  <action id="Unsplit">
+    <keyboard-shortcut first-keystroke="shift ctrl alt z" />
+  </action>
+  <action id="UsageView.Include" />
+  <action id="Vcs.Log.GoToParent" />
+  <action id="XDebugger.NewWatch" />
+  <action id="org.intellij.ideaplugins.tabswitch.action.NextTabAction">
+    <keyboard-shortcut first-keystroke="alt a" />
+  </action>
+</keymap>

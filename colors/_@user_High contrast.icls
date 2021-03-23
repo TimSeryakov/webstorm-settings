@@ -1,9 +1,9 @@
 <scheme name="_@user_High contrast" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="created">2021-03-22T17:29:44</property>
+    <property name="created">2020-12-28T14:18:13</property>
     <property name="ide">WebStorm</property>
-    <property name="ideVersion">2020.3.3.0.0</property>
-    <property name="modified">2021-03-23T14:49:20</property>
+    <property name="ideVersion">2020.3.0.0</property>
+    <property name="modified">2021-03-23T15:05:18</property>
     <property name="originalScheme">High contrast</property>
   </metaInfo>
   <colors>
@@ -532,6 +532,16 @@
     <option name="INDENT_RAINBOW_COLOR_4">
       <value>
         <option name="BACKGROUND" value="141819" />
+      </value>
+    </option>
+    <option name="INDENT_RAINBOW_COLOR_5">
+      <value>
+        <option name="BACKGROUND" value="1e1a1b" />
+      </value>
+    </option>
+    <option name="INDENT_RAINBOW_COLOR_6">
+      <value>
+        <option name="BACKGROUND" value="1e191a" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_ERROR">
